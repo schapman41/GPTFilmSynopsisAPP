@@ -23,7 +23,7 @@ function App() {
   async function handleClick() {
     try {
         const configuration = new Configuration({
-          apiKey: "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",
+          apiKey: "YOUR API KEY",
         });
         const openai = new OpenAIApi(configuration);
 
